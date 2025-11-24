@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int enBoyuk(int a, int b, int c) {
+    int temp = (a > b) ? a : b;
+    return (temp > c) ? temp : c;
+}
+int main() {
+    int a, b, c;
+    cin >> a >> b >> c;
+    cout << enBoyuk(a, b, c) << endl;
+    return 0;
+}
