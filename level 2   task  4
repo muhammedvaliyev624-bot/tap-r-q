@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+string cut_tek(int x) {
+    return (x % 2 == 0) ? "Cut" : "Tek";
+}
+int main() {
+    int a;
+    cin >> a;
+    cout << cut_tek(a) << endl;
+    return 0;
+}
