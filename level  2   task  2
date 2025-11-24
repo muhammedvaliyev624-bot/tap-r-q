@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+string menfi_musbet_sifir(int x) {
+    if (x > 0) return "Musbet";
+    else if (x < 0) return "Menfi";
+    else return "Sifir";
+}
+int main() {
+    int a;
+    cin >> a;
+    cout << menfi_musbet_sifir(a) << endl;
+    return 0;
+}
