@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int kvadrat(int x) {
+    return x * x;
+}
+int kub(int x) {
+    return x * x * x;
+}
+int main() {
+    int n;
+    cin >> n;
+    cout << kvadrat(n) << " " << kub(n);
+    return 0;
+}
