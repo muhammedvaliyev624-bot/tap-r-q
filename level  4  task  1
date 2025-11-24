@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int cut_ededler_kvadrat_cemi(int n) {
+    int cem = 0;
+    for (int i = 2; i <= n; i += 2) {
+        cem += i * i;
+    }
+    return cem;
+}
+int main() {
+    int n;
+    cin >> n;
+    cout << cut_ededler_kvadrat_cemi(n) << endl;
+    return 0;
+}
