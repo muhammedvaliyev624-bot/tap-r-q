@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int boyuk(int a, int b) {
+    return (a > b) ? a : b;
+}
+int main() {
+    int a, b;
+    cin >> a >> b;
+    cout << boyuk(a, b) << endl;
+    return 0;
+}
